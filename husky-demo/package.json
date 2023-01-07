@@ -1,0 +1,13 @@
+{
+  "name": "husky-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "husky": "./husky"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 123 && exit 1"
+    }
+  }
+}

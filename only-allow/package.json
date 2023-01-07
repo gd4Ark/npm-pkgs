@@ -1,0 +1,14 @@
+{
+  "name": "only-allow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "install": "node only-allow.js yarn"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.3",
+    "lodash": "^4.17.21"
+  }
+}

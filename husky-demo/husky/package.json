@@ -1,0 +1,14 @@
+{
+  "name": "husky",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "husky-run": "./runner/index.js"
+  },
+  "scripts": {
+    "install": "node husky"
+  },
+  "dependencies": {
+    "cosmiconfig": "^7.0.1"
+  }
+}
